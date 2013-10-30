@@ -25,10 +25,9 @@ namespace Starmageddon
 
         private static string LoadRoomDescription(int roomNumber)
         {
-            using (StreamReader sr = new StreamReader(@"C:\Users\Dane\Documents\GitHub\Starmageddon\Starmageddon\Rooms\Room" + (roomNumber + 1) + ".txt"))
-            {
-                return sr.ReadToEnd();
-            }
+            StreamReader sr = new StreamReader(@"Rooms/Room" + (roomNumber + 1) + ".txt");
+
+            return sr.ReadToEnd();
         }
     }
 }
