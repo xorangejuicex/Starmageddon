@@ -1,4 +1,4 @@
 Starmageddon
 ============
 
-A Text Adventure -- TROUGH SPACE!
+A Text Adventure -- THROUGH SPACE!
