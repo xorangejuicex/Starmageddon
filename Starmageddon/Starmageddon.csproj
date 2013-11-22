@@ -50,10 +50,7 @@
     <Compile Include="StartUp.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Rooms\Room1.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Rooms\Room2.txt">
+    <Content Include="Rooms\RoomDescriptions.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

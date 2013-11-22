@@ -13,7 +13,7 @@ namespace Starmageddon
             StartUp.SetWindowTitle();
             StartUp.SetConsoleDimensions();
 
-            Level.InitializeLevel(2);
+            Level.InitializeRooms(2, 2);
 
             Console.ReadLine();
         }
